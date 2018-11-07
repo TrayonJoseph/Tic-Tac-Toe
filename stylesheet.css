@@ -1,0 +1,83 @@
+.board{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0;
+    width: 95vw;
+    height: 95vw;
+    max-width: 600px;
+    max-height: 600px;
+  margin-left: 25%;
+  color: aqua;
+  }
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: cursive;
+    color: aqua;
+}  
+.controls{
+    margin-bottom: 50px;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.position{
+    font-size: 60px;
+border: solid;
+}
+#position1{
+border-style: solid;
+border-top: none;
+border-left: none;
+font-size: 60px;
+}
+#position2{
+border-style: solid;
+border-top: none;
+}
+#position3{
+border-style: solid;
+border-top: none;
+border-right: none;   
+}
+#position4{
+border-style: solid;
+border-left: none; 
+}
+#position5{
+border-style: solid; 
+}
+#position6{
+border-style: solid;
+border-right: none; 
+}
+#position7{
+border-style: solid;
+border-left: none;
+border-bottom: none; 
+}
+#position8{
+border-style: solid;
+border-bottom: none;
+border-right: solid;
+border-left: solid;
+}
+#position9{
+border-style: solid;
+border-bottom: none;
+border-right: none;
+}
+body{
+    background-color: black;
+}
+#jumbotronT{
+   background-color: black;
+}
+#resetButton{
+    background-color: aqua;
+}
+.position:hover{
+    background:rgb(211, 206, 206)
+}
